@@ -4,6 +4,16 @@
 
 This is for readers who can read basic Java loops and classes. It isn't a Java language reference, a catalog of object-oriented patterns, a large web-service design guide, or a coding-agent manual. The small command interface makes the product behavior inspectable without requiring a GUI, account or external package.
 
+## Learning outcomes
+
+After working through this draft, readers should be able to:
+
+- Turn a user need into a domain model with explicit responsibilities and invariants.
+- Design a user flow and check that rejected or concurrent actions do not corrupt application state.
+- Change a small Java application and demonstrate what survived using reproducible tests.
+
+## Chapters
+
 | Chapter | Reader outcome |
 | --- | --- |
 | 1. [Turn a user need into a domain model](chapters/01-model-the-work.md) | Specify actors, identity, status and invariants |
